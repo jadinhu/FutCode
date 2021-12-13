@@ -2,12 +2,15 @@
 * PSG.cs
 * Created by: Jadson Almeida [jadson.sistemas@gmail.com]
 * Created on: 01/05/19 (dd/mm/yy)
-* Revised on: 04/05/19 (dd/mm/yy)
+* Revised on: 13/12/21 (dd/mm/yy)
 */
 
+/// <summary>
+/// Simple Test
+/// </summary>
 public class PSG : Team
 {
-    static int contDistBarra = 0;
+    //static int contDistBarra = 0;
     static int naoGoleiro = 0;
     static float jCdgol = 0;
     static float jEdgol = 0;

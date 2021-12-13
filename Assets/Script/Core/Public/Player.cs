@@ -2,14 +2,23 @@
 * Player.cs
 * Created by: Jadson Almeida [jadson.sistemas@gmail.com]
 * Created on: 24/04/19 (dd/mm/yy)
-* Revised on: 19/10/19 (dd/mm/yy)
+* Revised on: 13/12/21 (dd/mm/yy)
 */
 using UnityEngine;
 
+/// <summary>
+/// Futcode API for <see cref="MonoPlayer"/>. Handles every method that programming student can use in him team
+/// </summary>
 public class Player
 {
-    private MonoPlayer player;
-    private Team team;
+    /// <summary>
+    /// The <see cref="MonoBehaviour"/> of the player with not accessible code
+    /// </summary>
+    MonoPlayer player;
+    /// <summary>
+    /// The team of this player
+    /// </summary>
+    Team team;
 
     public Player(MonoPlayer player, Team team)
     {
@@ -96,7 +105,7 @@ public class Player
     /// </summary>
     public Vector2 GetDefenseGolPoint()
     {
-        if (player.Team.sideLeft)
+        if (player.team.sideLeft)
             return Match.Instance.LeftGolPoint();
         else
             return Match.Instance.RightGolPoint();

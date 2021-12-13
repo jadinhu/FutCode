@@ -7,7 +7,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Handles the core behavior of a ball
+/// Handles the core behavior of a <see cref="Ball"/> with all inacessible behavior
 /// </summary>
 public class MonoBall : MonoBehaviour
 {

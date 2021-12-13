@@ -2,13 +2,19 @@
 * Ball.cs
 * Created by: Jadson Almeida [jadson.sistemas@gmail.com]
 * Created on: 24/04/19 (dd/mm/yy)
-* Revised on: 19/10/19 (dd/mm/yy)
+* Revised on: 13/12/21 (dd/mm/yy)
 */
 using UnityEngine;
 
+/// <summary>
+/// Futcode API for <see cref="MonoBall"/>. Handles every method that programming student can use in him team
+/// </summary>
 public class Ball
 {
-    private MonoBall ball;
+    /// <summary>
+    /// The <see cref="MonoBehaviour"/> of the ball with not accessible code
+    /// </summary>
+    MonoBall ball;
 
     public Ball(MonoBall ball)
     {

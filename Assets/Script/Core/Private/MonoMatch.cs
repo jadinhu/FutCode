@@ -10,7 +10,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Manages the match (score, sounds, time and monobehavior scripts about ball and player etc.)
+/// Handles the core behavior of a <see cref="Match"/> (score, sounds, time and monobehavior scripts about 
+/// ball and player etc.) with all inacessible behavior
 /// </summary>
 public class MonoMatch : MonoBehaviour
 {
@@ -150,9 +151,9 @@ public class MonoMatch : MonoBehaviour
         {
             originalPositions.Add(players[i].transform.position);
             if (i < 3)
-                players[i].Team = teamA;
+                players[i].team = teamA;
             else
-                players[i].Team = teamB;
+                players[i].team = teamB;
         }
         teamA.Setup();
         teamB.Setup();
@@ -172,7 +173,7 @@ public class MonoMatch : MonoBehaviour
         yield return new WaitForSeconds(startSound.length);
         foreach (MonoPlayer player in players)
         {
-            player.Running = true;
+            player.running = true;
         }
         StartCoroutine(TimeCounter());
     }
@@ -228,7 +229,7 @@ public class MonoMatch : MonoBehaviour
         MatchRunning = false;
         foreach (MonoPlayer player in players)
         {
-            player.Running = false;
+            player.running = false;
         }
         ball.Stop();
         if (isForTimeA)
@@ -307,7 +308,7 @@ public class MonoMatch : MonoBehaviour
         StartCoroutine(TimeCounter());
         foreach (MonoPlayer player in players)
         {
-            player.Running = true;
+            player.running = true;
         }
     }
 
@@ -345,7 +346,7 @@ public class MonoMatch : MonoBehaviour
     {
         foreach (MonoPlayer player in players)
         {
-            player.Running = false;
+            player.running = false;
         }
         sound.PlayOneShot(endSound);
         isFirstTime = false;
@@ -362,7 +363,7 @@ public class MonoMatch : MonoBehaviour
         StartCoroutine(TimeCounter());
         foreach (MonoPlayer player in players)
         {
-            player.Running = true;
+            player.running = true;
         }
     }
 
@@ -374,7 +375,7 @@ public class MonoMatch : MonoBehaviour
     {
         foreach (MonoPlayer player in players)
         {
-            player.Running = false;
+            player.running = false;
         }
         ball.Stop();
         sound.PlayOneShot(endSound);
