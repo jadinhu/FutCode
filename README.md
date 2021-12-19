@@ -1,7 +1,7 @@
 # FutCode 
 [![NPM](http://opengamingfoundation.org/img/home_logo1.gif)](http://www.opengamingfoundation.org/ogl.html) 
 
-# Sobre o projeto
+# About Project
 
 Made with [Unity3D](https://unity.com/ "Site da DevSuperior"), this project is a **soccer game for training programming logic**.
 
