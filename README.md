@@ -1,13 +1,30 @@
-# FutCode
+# FutCode 
+[![NPM](http://opengamingfoundation.org/img/home_logo1.gif)](http://www.opengamingfoundation.org/ogl.html) 
 
-This project is a soccer game for training programming logic.
+# Sobre o projeto
 
-Each team have 3 players you must programming.
+Made with [Unity3D](https://unity.com/ "Site da DevSuperior"), this project is a **soccer game for training programming logic**.
 
-You can put two teams for play against each other.
+You can put **two teams playing against each other**. Each team have 3 players you must programming.
 
-For each team, you have to code one class using the own game API.
+To programming the players, the user just **needs know** concepts of *variables* and *if-else*. 
 
-You must alter MonoMatch.cs variables TeamA and TeamB to instanciate your teams.
+The manual are in brazilian portuguese inside **Manual** Assets folder.
 
-The manual are in brazilian portuguese, inside Manual folder.
+## Layout Desktop
+**Begin a Match** ![Begin](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Campo2.png) 
+**Making a Gol** ![Gol](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Gol.png)
+
+## How execute
+
+For each team, you have to code one class using the own game API. You must alter variables **TeamA** and **TeamB** of **MonoMatch.cs**  to instanciate your teams.
+
+To don't spend so much time, you can run the application on **Editor Mode** without building it. 
+
+![Variables TeamA and TeamB](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Times.png)
+
+# Autor
+
+Jadson de Araújo Almeida
+jadson.sistemas@gmail.com
+https://www.linkedin.com/in/almeidajadson/
