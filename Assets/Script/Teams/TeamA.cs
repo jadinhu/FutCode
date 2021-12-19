@@ -18,5 +18,7 @@ public class TeamA : Team
     public override void Play()
     {
         player1.RegisterGoToBall();
+        player2.RegisterGoToBall();
+        player3.RegisterGoToBall();
     }
 }

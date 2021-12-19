@@ -2,7 +2,7 @@
 * TeamB.cs
 * Created by: Jadson Almeida [jadson.sistemas@gmail.com]
 * Created on: 31/03/19 (dd/mm/yy)
-* Revised on: 13/12/21 (dd/mm/yy)
+* Revised on: 18/12/21 (dd/mm/yy)
 */
 
 /// <summary>
@@ -17,7 +17,7 @@ public class TeamB : Team
 
     public override void Play()
     {
-        player1.RegisterMoveToPoint(Direction.NorthEast);
+        player1.RegisterGoToBall();
         player2.RegisterMarkOpponent(3);
         player3.RegisterStayQuiet();
     }
