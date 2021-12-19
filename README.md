@@ -23,7 +23,7 @@ To don't spend so much time, you can run the application on **Editor Mode** with
 
 ![Variables TeamA and TeamB](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Times.png)
 
-# Autor
+# Author
 
 Jadson de Araújo Almeida
 
