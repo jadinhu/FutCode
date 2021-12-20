@@ -3,7 +3,7 @@
 
 # About Project
 
-Made with [Unity3D](https://unity.com/ "Site da DevSuperior"), this project is a **soccer game for training programming logic**.
+Made with [Unity3D](https://unity.com/ "Unity3D website"), this project is a **soccer game for training programming logic**.
 
 You can put **two teams playing against each other**. Each team have 3 players you must programming.
 
