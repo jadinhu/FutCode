@@ -12,9 +12,11 @@ To programming the players, the user just **needs know** concepts of *variables*
 The manual are in brazilian portuguese inside **Manual** Assets folder.
 
 ## Layout Desktop
-**Begin a Match** ![Begin](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Campo2.png) 
-**Making a Gol** ![Gol](https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Gol.png)
-
+<div id="banner" style="overflow: hidden; display: flex; justify-content:space-around;">
+  <img src="https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Campo2.png" width="40%"  title="Begin a Match"/> &nbsp &nbsp
+  <img src="https://github.com/jadinhu/FutCode/blob/main/Assets/Image/External%20Usage/Gol.png" width="40%"  title="Making a Gol"/>
+</div>
+  
 ## How execute
 
 For each team, you have to code one class using the own game API. You must alter variables **TeamA** and **TeamB** of **MonoMatch.cs**  to instanciate your teams.
